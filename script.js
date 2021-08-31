@@ -22,6 +22,6 @@ function verificar(){
 
 		}else{
 		res.innerHTML =`Sua media foi ${md} o que não é uma nota valida tente novamente com os valores certos!(de 1 a 10)`
-		document.body.style.background ='#ffeaa7'
+		document.body.style.background ='#F8EFBA'
 	}
 }
