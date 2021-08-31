@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 body{
-	background: #ffc048;
+	height: 50vw;
+	background: linear-gradient(#ffeaa7, #fdcb6e, #f1c40f);
 	font: normal 1rem arial;
 	text-align: center;
 }
@@ -39,7 +40,7 @@ section{
 }
 .botao:hover{
 	transition: 0.5s;
-	background: #485460;
-	color: ghostwhite;
+	background: #b2bec3;
+	color: #2d3436;
 	
 }
