@@ -19,5 +19,8 @@ function verificar(){
 	else if(md == 10){
 		res.innerHTML = `Sua média foi ${md} por isso você passou, parabéns pelo 10 você mandou bem!`
 		document.body.style.background ='#34e7e4'
+	}else{
+		res.innerHTML =`Sua media foi ${md} o que não é uma nota valida tente novamente com os valores certos!(de 1 a 10)`
+		document.body.style.background ='#3c40c6'
 	}
 }
