@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+body{
+	background: #ffc048;
+	font: normal 1rem arial;
+	text-align: center;
+}
+h1{
+	font-size: 3rem;
+	font-family: 'Oswald', sans-serif;
+	transition: 0.5s;
+}
+h1:hover{
+	transition: 0.5s;
+	font-size: 3.5rem;
+}
+
+section{
+	font-family: 'Rubik', sans-serif;
+	background: #d2dae2;
+	border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+}
+.idade{
+	border-radius: 10px;
+}
+.botao{
+	font-size: 1rem;
+	border-radius: 10px;
+	transition: 0.5s;
+	background: #d2dae2;
+	color: black;
+}
+.botao:hover{
+	transition: 0.5s;
+	background: #1e272e;
+	color: ghostwhite;
+	
+}
