@@ -11,10 +11,6 @@ h1{
 	font-family: 'Oswald', sans-serif;
 	transition: 0.5s;
 }
-h1:hover{
-	transition: 0.5s;
-	font-size: 3.5rem;
-}
 
 section{
 	font-family: 'Rubik', sans-serif;
@@ -25,7 +21,15 @@ section{
     margin: auto;
 }
 .idade{
-	border-radius: 10px;
+	width: 200px; 
+	transition: 0.25s;
+	border-radius: 24px;
+	border: 0;
+}
+.idade:focus{
+	transition: 0.25s;
+	width: 280px;
+	border-color: black;
 }
 .botao{
 	font-size: 1rem;
@@ -36,7 +40,7 @@ section{
 }
 .botao:hover{
 	transition: 0.5s;
-	background: #1e272e;
+	background: #485460;
 	color: ghostwhite;
 	
 }
