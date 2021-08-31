@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 body{
 	height: 50vw;
-	background: linear-gradient(#ffeaa7, #fdcb6e, #f1c40f);
+	background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 	font: normal 1rem arial;
 	text-align: center;
 }
@@ -15,7 +15,7 @@ h1{
 section{
 	font-family: 'Rubik', sans-serif;
 	background: #d2dae2;
-	border-radius: 10px;
+	border-radius: 30px;
     padding: 15px;
     width: 500px;
     margin: auto;
