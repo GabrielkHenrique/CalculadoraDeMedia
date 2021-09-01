@@ -20,7 +20,7 @@ function verificar(){
 		document.body.style.background ='#2d3436'
 			
 
-		}else{
+		}else if(md > 10){
 		res.innerHTML =`Sua media foi ${md} o que não é uma nota valida tente novamente com os valores certos!(de 1 a 10)`
 		document.body.style.background ='#F8EFBA'
 	}
