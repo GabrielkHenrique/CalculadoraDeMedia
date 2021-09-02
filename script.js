@@ -8,7 +8,7 @@ function verificar(){
 		res.innerHTML = `Sua média foi ${md} por isso você passou, parabéns!`
 		document.body.style.background ='#05c46b'
 	}	
-		else if(md <= 6 && md > 1){
+		else if(md <= 6 && md > 0){
 		res.innerHTML = `Sua média foi ${md} por isso você foi reprovado! se esforce mais ano que vem`
 		document.body.style.background ='#d63031'
 	}
