@@ -2,11 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 body{
 	height: 50vw;
-	background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+	background-image: linear-gradient(120deg, #636e72 0%, #2f3640 100%);
 	font: normal 1rem arial;
-}
-.hd{
-	background: #d2dae2!important;
 }
 .media{
 	text-align: center;
@@ -23,9 +20,11 @@ h1{
 }
 
 section{
+		border: none;
+		color: white;
 		align-items:center;
 		font-family: 'Rubik', sans-serif;
-		background: #d2dae2;
+		background: #2d3436;
 		border-radius: 30px;
     padding: 15px;
     width: 450px;
