@@ -4,15 +4,32 @@
 	<meta charset="utf-8">
 	<link rel='icon' type='image/jpg' href='calc1.jpg'>
 	<title>Cauculadora</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header>
-		<h1>Calculadora de média!</h1>
-	</header>
-	<section>
+	<header class="hd">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Cauculadora de média</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+          <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Contato</a>
+      </ul>
+    </div>
+  </div>
+</nav>
+		</header>
+	<section class="media">
 		<div>
-			<h2>Digite os numeros para calcular</h2>
+			<h2>Digite os numeros para calcular:</h2>
 			<p>Digite o 1º</p>
 			<input class="nota" type="number" id="nota1">
 			<br>
@@ -28,6 +45,32 @@
 		<div id="res">
         </div>
 	</section>
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <dialog class="modal-content">
+      <header class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Entre em contato</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </header>
+      <main class="modal-body">
+        <form>
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Nome completo</label>
+          	<input type="text" class="form-control" id="formGroupExampleInput" placeholder="Insira seu nome">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Endereço de email</label>
+          	<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+        </div>
+      </form>
+    </main>
+      <footer class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn botao-cor-especial">Enviar</button>
+      </footer>
+    </dialog>
+  </div>
+</div>
 	<script src="script.js"></script>
 </body>
 </html>
