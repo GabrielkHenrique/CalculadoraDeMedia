@@ -13,15 +13,12 @@ function verificar(){
 		document.body.style.background ='#ff7f50'
 	}
 		else if(md < 5){
-		res.innerHTML = `Sua média foi ${md.toFixed(2)} por isso você está de recuperação`
+		res.innerHTML = `Sua média foi ${md.toFixed(2)}, você está de recuperação`
 		document.body.style.background ='#ff4757'
 		}
 	else if(md == 10){
 		res.innerHTML = `Sua média foi ${md.toFixed(2)} por isso você passou, parabéns pelo 10 você mandou bem!`
 		document.body.style.background ='#7bed9f'
-	}else if(md == 0){
-		res.innerHTML = `Sua média foi ${md.toFixed(2)} por isso você reprovou!,você foi muito mal se esforce mais ano que vem! `
-		document.body.style.background ='#2d3436'
 		}else if(md > 10){
 		res.innerHTML =`Sua media foi ${md.toFixed(2)} o que não é uma nota valida tente novamente com os valores certos!(de 1 a 10)`
 		document.body.style.background ='#F8EFBA'
