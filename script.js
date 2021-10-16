@@ -4,6 +4,7 @@ function verificar(){
 	var n3 = parseFloat(document.getElementById('nota3').value)
 	var res = document.getElementById('res')
 	var md = (n1 + n2 + n3)/3;
+
 	if (md >=7 && md < 10){
 		res.innerHTML = `Sua média foi ${md.toFixed(2)} por isso você passou, parabéns!`
 		document.body.style.background ='#05c46b'
