@@ -2,6 +2,7 @@ function verificar(){
 	var n1 = parseFloat(document.getElementById('nota1').value)
 	var n2 = parseFloat(document.getElementById('nota2').value)
 	var n3 = parseFloat(document.getElementById('nota3').value)
+	var form = document.getElementsByClassName('box')
 	var res = document.getElementById('res')
 	var md = (n1 + n2 + n3)/3;
 
@@ -24,4 +25,5 @@ function verificar(){
 		res.innerHTML =`Sua media foi ${md.toFixed(2)} o que não é uma nota valida tente novamente com os valores certos!(de 1 a 10)`
 		document.body.style.background ='#F8EFBA'
 	}
+	
 }
